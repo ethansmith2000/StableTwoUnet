@@ -1,5 +1,7 @@
 # StableTwoUnet
 
+![compare.png](compare.png)
+
 What if instead of using a negative prompt we used a negative model? In one case we can amp the style and effects of a 
 finetuned model by letting the negative prediction be handled by the vase model and the positive by the finetune. This can be particularly
 noticable if you let both the positive and negative prompt be the same, as then the only difference between predictions is just the model weights.
